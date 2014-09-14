@@ -1,4 +1,4 @@
-MAC Playbook
+Boxes - Ansible MAC Playbook
 ========
 
 Ansible mac playbook for developers
