@@ -69,3 +69,10 @@ Quickly get up on running on a new mac.
  ansible-playbook -i hosts mac.yml
  ```
  
+ or
+  ```sh
+ ## Small wrapper around `ansible-playbook -i hosts mac.yml`
+ ## Tip: symlink boxes to /usr/local/bin/boxes for easier access.
+ ./bin/boxes 
+ ```
+ 
