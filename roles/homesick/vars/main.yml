@@ -1,0 +1,6 @@
+---
+homesick_repos:
+  - git@github.com:ericduran/dotfiles.git
+
+homesick_repos_names:
+  - dotfiles

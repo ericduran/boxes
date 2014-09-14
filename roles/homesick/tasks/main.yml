@@ -1,0 +1,10 @@
+---
+- gem: name=homesick state=present
+
+- name: clone homesick-repos to homesick
+  command: ~/.gem/ruby/2.0.0/bin/homesick clone {{item}}
+  with_items: homesick_repos
+
+- name: link homesick-repos to castle
+  command: ~/.gem/ruby/2.0.0/bin/homesick link {{item}}
+  with_items: homesick_repos_names
