@@ -5,6 +5,7 @@
 - homebrew_cask: name=firefox state=present
 - homebrew_cask: name=google-chrome state=present
 - homebrew_cask: name=google-chrome-canary state=present
+- homebrew_cask: name=iterm2 state=present
 - homebrew_cask: name=java6 state=present
 - homebrew_cask: name=joinme state=present
 - homebrew_cask: name=phpstorm state=present
