@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  roles:
+  - brew
+  - applications
+  - cli
+  - git
+  - github
+  - php

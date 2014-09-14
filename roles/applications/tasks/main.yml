@@ -1,0 +1,15 @@
+---
+- homebrew_cask: name=alfred state=present
+- homebrew_cask: name=caffeine state=present
+- homebrew_cask: name=charles state=present
+- homebrew_cask: name=firefox state=present
+- homebrew_cask: name=google-chrome state=present
+- homebrew_cask: name=google-chrome-canary state=present
+- homebrew_cask: name=java6 state=present
+- homebrew_cask: name=joinme state=present
+- homebrew_cask: name=phpstorm state=present
+- homebrew_cask: name=sequel-pro state=present
+- homebrew_cask: name=slack state=present
+- homebrew_cask: name=sublime-text state=present
+- homebrew_cask: name=vagrant state=present
+- homebrew_cask: name=virtualbox state=present

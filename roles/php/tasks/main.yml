@@ -1,0 +1,2 @@
+---
+- homebrew: name=drush state=present
