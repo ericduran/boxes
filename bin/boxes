@@ -1,0 +1,23 @@
+#!/usr/bin/ruby
+
+#boxes script borrowed from boxen
+#https://github.com/boxen/our-boxen/blob/master/script/boxen
+
+require "pathname"
+
+if ENV["USER"] == "root"
+  abort "Run this as a normal user, I'll sudo if I need to."
+end
+
+myself = File.new __FILE__
+
+unless myself.flock File::LOCK_EX | File::LOCK_NB
+  abort "You're already running a boxes process! Know a patience."
+end
+
+at_exit { myself.flock File::LOCK_UN }
+
+Dir.chdir Pathname.new(__FILE__).realpath + "../.."
+
+exec('ansible-playbook -i hosts mac.yml')
+
