@@ -10,6 +10,7 @@ Quickly get up on running on a new mac.
 - #### CLI Applications
  - drush 
  - Git 2.0
+ - homesick (& my homesick [dotfiles](https://github.com/ericduran/dotfiles))
  - [hub](https://hub.github.com/) - Adds github integration to git
  - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
  - [siege](http://www.joedog.org/siege-home/) - A better Apache Bench
