@@ -11,6 +11,7 @@ Quickly get up on running on a new mac.
  - drush 
  - Git 2.0
  - [hub](https://hub.github.com/) - Adds github integration to git
+ - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
  - [siege](http://www.joedog.org/siege-home/) - A better Apache Bench
  - Vagrant
  - VIM 7.4
@@ -19,11 +20,13 @@ Quickly get up on running on a new mac.
  - Alfred2
  - Caffeine
  - [Charles Proxy](http://www.charlesproxy.com/) - An HTTP proxy/monitor/reverse proxy
+ - Dropbox
  - Firefox
  - Firefox Aurora - Newest of the new Firefox features 
  - Google Chrome
  - Google Chrome Canary - Newest of the new Chrome features
  - Join.me - Quick and Easy screen sharing
+ - 1password
  - PHPStorm (& java6)
  - Sequel Pro - The missing MySQL Database manager
  - Slack
